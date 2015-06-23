@@ -41,7 +41,7 @@ public class AvailabilityTest {
 				if (args[0].equals("-u")) {
 					input = new String(args[1]);
 				} else {
-					System.out.println("USAGE: [-noxml] -u \"URL\"");
+					printUsage();
 				}
 			}
 
