@@ -1,0 +1,16 @@
+
+.classpath
+
+.project
+
+.settings/
+
+*.class
+
+*.log
+
+response.xml
+
+wfs.xsd
+
+/target/
