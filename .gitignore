@@ -9,8 +9,8 @@
 
 *.log
 
+/target/
+
 response.xml
 
 wfs.xsd
-
-/target/
