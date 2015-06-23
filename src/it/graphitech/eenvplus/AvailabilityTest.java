@@ -22,7 +22,7 @@ import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
 import org.xml.sax.XMLReader;
 
-//--- ComplianceTest v3 --- //
+//--- ComplianceTest v3--- //
 public class AvailabilityTest {
 
 	static boolean isDocumentValid = false;
