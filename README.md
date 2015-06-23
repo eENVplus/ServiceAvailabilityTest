@@ -12,4 +12,4 @@ Otherwise the tool retrieves the XSD from the schemaLocation attribute in the XM
 
 Mandatory parameter is `-u "<url>"` to provide the URL endpoint to test.
 
-This tool requires the Apache HttpComponents™ libraries to perform the HTTP requests.
+This tool requires the [Apache HttpComponents™](https://hc.apache.org/) libraries to perform the HTTP requests.
