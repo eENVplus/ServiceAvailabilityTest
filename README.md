@@ -5,7 +5,7 @@ This tool is composed by a single Java class, which tests the availability of a 
 
 To compile this software use Maven command: `mvn clean compile assembly:single`
 
-To run the compiled JAR type in terminal: `java -jar CompiledClass.jar`
+To run the compiled JAR type in terminal: `java -jar ServiceAvailabilityTest-<version>-jar-with-dependencies.jar`
 
 Optional parameter is `-noxml` to disable XML validation.
 Otherwise the tool retrieves the XSD from the schemaLocation attribute in the XML document and tries to validate the document.
