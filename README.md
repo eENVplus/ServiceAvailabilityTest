@@ -5,7 +5,7 @@ This tool is composed by a single Java class, which tests the availability of a 
 
 To compile this software use Apache Maven, inside project directory type: `mvn`
 
-To run the compiled JAR go inside `target` folder and type: `java -jar ServiceAvailabilityTest-<version>-jar-with-dependencies.jar`
+To run the compiled JAR go inside `target` folder and type: `java -jar ServiceAvailabilityTest-<version>.jar`
 
 Optional parameter is `-noxml` to disable XML validation.
 Otherwise the tool retrieves the XSD from the schemaLocation attribute in the XML document and tries to validate the document.
