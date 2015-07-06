@@ -6,11 +6,11 @@
 	<packaging>jar</packaging>
 	<version>3.0.0</version>
 	<name>ServiceAvailabilityTest</name>
-	
+
 	<properties>
     	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	</properties>
-  	
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -18,10 +18,9 @@
 			<version>4.3.5</version>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<defaultGoal>clean compile assembly:single</defaultGoal>
-		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
